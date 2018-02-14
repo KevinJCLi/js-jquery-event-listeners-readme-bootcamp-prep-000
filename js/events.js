@@ -8,7 +8,13 @@ function getIt () {
 
 function frameIt() {
   $("img").on("load", function() {
-    $("img").addclass("")
+    $("img").addclass("tasty");
+  });
+}
+
+function pressIt () {
+  $(document).on("keydown", function (pressedKey) {
+    if (pressedKey.which === )
   });
 }
 

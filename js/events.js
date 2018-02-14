@@ -1,7 +1,13 @@
 //define functions here
 
 function getIt () {
-  $("p").on("click")
+  $("p").on("click",function(clicking) {
+    alert("Hey!");
+  });
+}
+
+function frameIt() {
+  $
 }
 
 $(document).ready(function(){
